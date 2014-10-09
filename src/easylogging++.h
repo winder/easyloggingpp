@@ -2876,7 +2876,7 @@ public:
     }
 
     inline bool toStandardError(Level level) {
-        return getConfigByVal<bool>(level, &m_toStandarErrorMap, "toStandardError");
+        return getConfigByVal<bool>(level, &m_toStandardErrorMap, "toStandardError");
     }
 
     inline const base::LogFormat& logFormat(Level level) {
